@@ -21,10 +21,18 @@ function checkPalindrome() {
     const reversed = isPalindrome(value);
 
     if (reversed) {
-        answer.innerText = "This is a Palindrome!";
+        answer.innerHTML = "This is a Palindrome! &#11088;";
     } else {
         answer.innerText = "This is not a Palindrome. Try again?"
     }
 }
 
+//Event listener for the button.
 document.querySelector("#check-button").addEventListener("click", checkPalindrome);
+
+//Event listener for the enter key.
+input.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        checkPalindrome();
+    }
+});
