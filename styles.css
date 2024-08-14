@@ -40,12 +40,12 @@ body{
 h1{
     letter-spacing: 0.1rem;
     font-size: 2.5rem;
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 p{
     font-size: 1.3rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 input, button{
@@ -67,4 +67,8 @@ button{
 
 button:hover{
     cursor: pointer;
+}
+
+#check-text{
+    margin-top: 1rem;
 }
