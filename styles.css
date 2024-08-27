@@ -75,7 +75,7 @@ button:hover{
 
 @media screen and (max-width: 767px) {
     input {
-        max-width: 15rem;
+        max-width: 12rem;
         margin: auto;
     }
 }
