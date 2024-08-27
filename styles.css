@@ -72,3 +72,10 @@ button:hover{
 #check-text{
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 767px) {
+    input {
+        width: 10rem;
+        margin: auto;
+    }
+}
